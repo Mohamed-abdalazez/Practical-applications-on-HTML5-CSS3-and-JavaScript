@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.slider-container{
+    margin: 10px auto;
+    width: 900px;
+    height: 450px;
+    position: relative;
+}
+
+.slider-container img{
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s;
+    z-index: 1;
+}
+.slider-container img.active{
+    opacity: 1;
+}
+
+.slider-container .slide-number{
+    position: absolute;
+    left: 10;
+    top: 10;
+    background-color:rgba(255, 115, 0, 0.534);
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    font-size: 20px;
+    z-index: 2;
+    border-radius: 6px;
+}
+
+.slider-controls{
+    width: 800px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider-controls .prev,
+.slider-controls .next{
+    background-color: skyblue;
+    color: rgb(2, 2, 2);
+    font-size: 17px;
+    width: 20%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 5px;
+    user-select: none;
+}
+
+.slider-controls .prev{
+    float: left;
+}
+.slider-controls .next{
+    float: right;
+}
+
+.slider-controls .prev.disabled,.slider-controls .next.disabled{
+    background-color: #87ceeb75;
+    cursor: no-drop;
+}
+
+
+.slider-controls .indicators{
+    width: 60%;
+    float: left;
+}
+
+.slider-controls .indicators ul{
+    list-style: none;
+    margin: 0;
+    text-align: center;
+}
+
+.slider-controls .indicators ul li{
+    display: inline-block;
+    background-color: snow;
+    color: #000;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    margin: 0 2px;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+.slider-controls .indicators ul li.active{
+    background-color: skyblue;
+    color: #000
+}
