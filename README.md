@@ -8,6 +8,15 @@ applications on HTML5, CSS3 and JavaScript
 
 - Memory Game
 
-**Notes :** the icons in the game from fontawesome [fontawesome](https://fontawesome.com/icons?d=gallery&p=2&m=free)
+**Notes :** the icons in the game from font awesome [Font Awesome](https://fontawesome.com/icons?d=gallery&p=2&m=free)
+
+
+
+![Memory Game](https://i.postimg.cc/Bbs4j2LB/1.png)
+![Memory Game](https://i.postimg.cc/fyKZmkYn/2.png)
+![Memory Game](https://i.postimg.cc/yNMVzM75/3.png)
+![Memory Game](hhttps://i.postimg.cc/vmgQkYwf/4.png)
+![Memory Game](https://i.postimg.cc/g2BzgwQG/5.png)
+
 
 
