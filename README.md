@@ -29,5 +29,4 @@ applications on HTML5, CSS3 and JavaScript
 - Fetch Github Repositories
 
 
-
-![Fetch Github Repositories](https://i.postimg.cc/KY8GCGbM/1.png)
+[![git.png](https://i.postimg.cc/ZKsdLTTx/git.png)](https://postimg.cc/SJ8RSbYn)
